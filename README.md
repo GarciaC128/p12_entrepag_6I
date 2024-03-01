@@ -30,7 +30,8 @@ samples, guidance on mobile development, and a full API reference.
 ![image](https://github.com/GarciaC128/p12_entrepag_6I/assets/143743720/b05108bd-7be4-4473-9357-80c2e370bc3f)
 ![image](https://github.com/GarciaC128/p12_entrepag_6I/assets/143743720/f349bc5c-3a2b-4f7e-a927-98803a900e70)
 
-##Actualizacion
+## Actualizacion
+
 ![image](https://github.com/GarciaC128/p12_entrepag_6I/assets/143743720/f47527af-c652-46dd-8ce8-416e5e7fe17d)
 ![image](https://github.com/GarciaC128/p12_entrepag_6I/assets/143743720/b6bfb81a-730b-4c84-bd51-6c1b4dd456cd)
 
