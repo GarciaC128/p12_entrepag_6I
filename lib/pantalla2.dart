@@ -16,10 +16,30 @@ class Pantalla2 extends StatelessWidget {
           children: [
             Text(argumento),
             ElevatedButton(
-                child: const Text("Regresar a Pantalla1"),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                child: const Text(
+                  "Regresar a Pantalla1",
+                  style: TextStyle(fontSize: 30, color: Colors.yellow),
+                ),
                 onPressed: () {
                   Navigator.pop(context);
                 }),
+            //  Card with size
+            Container(
+              width: double.infinity,
+              height: 320,
+              child: Card(
+                color: Colors.black,
+                margin: EdgeInsets.all(32),
+                child: Padding(
+                  padding: EdgeInsets.all(16),
+                  child: Text(
+                    'Flutter Teacher',
+                    style: TextStyle(fontSize: 30, color: Colors.green),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
