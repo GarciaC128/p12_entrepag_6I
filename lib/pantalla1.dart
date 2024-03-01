@@ -10,15 +10,38 @@ class Pantalla1 extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Pantalla1 Carlos Garcia'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          child: const Text("Vamos a la Pantalla2"),
-          onPressed: () {
-            Navigator.pushNamed(context, "/pantalla2",
-                arguments: "Mensa de pantalla1");
-          },
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          Text("FlutLab is on your service!", style: TextStyle(fontSize: 30)),
+          Icon(
+            Icons.mood,
+            size: 110,
+            color: Color(0xfff92b2b),
+          ),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+            child: const Text(
+              "Vamos a la pantalla 2",
+              style: TextStyle(fontSize: 29, color: Colors.yellow),
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, "/pantalla2",
+                  arguments: "Mensa de pantalla1");
+            },
+          ),
+          Card(
+            color: Colors.black,
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                "Tarjeta GarciaC",
+                style: TextStyle(fontSize: 28, color: Colors.pink),
+              ),
+            ),
+          )
+        ],
       ),
     );
-  } //Widget
-} // Clase pantalla1
+  } //widget
+} //Clase pantalla1
